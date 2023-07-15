@@ -1,0 +1,96 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.contact-form {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form textarea {
+    height: 120px;
+}
+
+.contact-form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submission-info {
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.submission-info h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.submission-info p {
+    margin-bottom: 10px;
+}
+
+/* style.css */
+
+.contact-form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form select option {
+    padding: 5px;
+}
